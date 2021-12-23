@@ -5,9 +5,16 @@
 @import "./ageverificationpage";
 @import "./parentwelcomepage";
 @import "./parentsigninpage";
+@import "./createacct";
+@import "./videoscategory";
+@import "./videoplayer";
 
 html {
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main {
@@ -77,6 +84,9 @@ html {
         }
       }
 
+      .slim_container {
+        width: 100px;
+      }
       .welcome__text {
         font-family: roboto;
         font-weight: 600;
