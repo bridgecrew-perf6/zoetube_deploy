@@ -8,6 +8,8 @@
   background-color: #fff;
   animation: slideInFromTop 1s ease-in;
 
+  position: relative;
+
   .left__nav__video__player {
     display: flex;
     justify-content: space-between;
@@ -38,19 +40,39 @@
 
   .center__nav__video__player {
     width: 40%;
+    position: absolute;
+    left: 30%;
     .icon__container {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex: 1;
+      top: 0;
 
-      .icons__section {
-        width: 70px;
-        img {
-          width: 100%;
+      .icons__section__link {
+        .icons__section {
+          width: 70px;
+          img {
+            width: 100%;
+          }
+
+          p {
+            color: rebeccapurple;
+            font-weight: 700;
+            font-size: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 10px;
+          }
+
           &:hover {
-            transform: scale(1.3);
+            transform: scale(1.1);
             transition: 0.3s ease-in;
+            p {
+              font-size: 1rem;
+              font-weight: 700;
+              color: red;
+            }
           }
         }
       }
@@ -103,13 +125,19 @@
     flex-direction: column;
     overflow: hidden;
     position: fixed;
-    padding: 40px 100px;
+    // padding: 40px 100px;
     width: 75%;
-    height: 77vh;
+    height: 79vh;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(235, 235, 235);
 
     .video__layout {
       height: 100%;
+      display: flex;
+
+      .vide0__cotainer {
+        margin: auto;
+      }
 
       iframe,
       video {
@@ -119,7 +147,10 @@
 
     .video__title__layout {
       padding-top: 12px;
-      padding-left: 20px;
+      padding-left: 50px;
+      background-color: #fff;
+      width: 100%;
+
       p {
         font-size: 1.1rem;
       }
@@ -153,25 +184,36 @@
       .no__videos {
         display: flex;
         justify-content: space-between;
-        width: 25%;
+        width: 32%;
         height: 30px;
         padding: 0 5px;
-        background-color: black;
+        background-color: $primary-green;
         color: white;
-        border-radius: 5px;
+        border-radius: 3px;
         position: absolute;
-        right: 15px;
+        right: 5px;
         bottom: 30%;
+        font-size: 1rem;
       }
 
       .movie__title {
         margin-top: 15px;
         position: absolute;
-        bottom: 15px;
+        bottom: 0px;
+        right: 0;
+        width: 249px;
+        height: 25%;
         padding: 0 5px;
+
+        display: flex;
+
+        background-color: $primary-green;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         p {
-          font-size: 1.2rem;
-          margin: 0;
+          font-size: 1rem;
+          margin: auto;
+          color: white;
         }
       }
 
