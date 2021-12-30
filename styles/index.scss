@@ -8,6 +8,13 @@
 @import "./createacct";
 @import "./videoscategory";
 @import "./videoplayer";
+@import "./learningpage";
+@import "./createprofile";
+@import "./profilepage";
+@import "./music";
+@import "./shows";
+@import "./explore";
+@import "./privacy";
 
 html {
   scroll-behavior: smooth;
@@ -67,9 +74,9 @@ a {
     .content__container {
       display: flex;
       flex-direction: column;
-      //     align-items: center;
-      //   justify-content: center;
-      //   width: 70%;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
       //   width: 75%;
       height: 68vh;
 
@@ -77,10 +84,15 @@ a {
         width: 400px;
         height: 600px;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        img {
+        img,
+        video {
           width: 100%;
           margin-bottom: 0;
+          margin: auto;
         }
       }
 
