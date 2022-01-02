@@ -153,3 +153,164 @@
     }
   }
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .main {
+    .righ__bg__container {
+      .profile__page__container {
+        width: 80%;
+
+        .profile__page__content__container {
+          height: 75vh;
+          h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+
+          p {
+            font-size: 1.1rem;
+          }
+
+          .profile__details__container {
+            width: 80%;
+            .left__profile__details__container {
+              width: 100px;
+              height: 100px;
+              img {
+                width: 100%;
+              }
+            }
+
+            .right__profile__details__container {
+              width: 50%;
+
+              .kiddeatails {
+                h1 {
+                  font-size: 1.1rem;
+                }
+                h4 {
+                  font-size: 1rem;
+                }
+              }
+
+              .edit__icon {
+                width: 30px;
+                height: 30px;
+
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+
+          .profile__btn__container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .profile__back__btn {
+              font-size: 1rem;
+            }
+
+            .add__profile__btn {
+              margin-left: 30px;
+              font-size: 1rem;
+            }
+
+            .next__profile__btn {
+              font-size: 1rem;
+              padding: 7px 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+
+    .righ__bg__container {
+      .profile__page__container {
+        width: 80%;
+
+        .profile__page__content__container {
+          height: 75vh;
+
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          h1 {
+            font-size: 1.3rem;
+            font-weight: 600;
+          }
+
+          p {
+            font-size: 0.9rem;
+          }
+
+          .profile__details__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .left__profile__details__container {
+              width: 100px;
+              height: 100px;
+
+              img {
+                width: 100%;
+              }
+            }
+
+            .right__profile__details__container {
+              width: 100%;
+
+              .kiddeatails {
+                h1 {
+                  font-size: 0.8rem;
+                }
+                h4 {
+                  font-size: 0.8rem;
+                }
+              }
+
+              .edit__icon {
+                width: 30px;
+                height: 30px;
+
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+
+          .profile__btn__container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .profile__back__btn {
+              font-size: 0.8rem;
+            }
+
+            .add__profile__btn {
+              margin-left: 30px;
+              font-size: 0.8rem;
+            }
+
+            .next__profile__btn {
+              font-size: 0.8rem;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

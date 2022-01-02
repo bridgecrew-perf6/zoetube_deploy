@@ -68,33 +68,33 @@
           text-align: center;
         }
 
-        .welcome__text {
-          font-family: roboto;
-          font-weight: 600;
-          font-size: 30px;
-          margin-top: 50px auto;
-        }
+        // .welcome__text {
+        //   font-family: roboto;
+        //   font-weight: 600;
+        //   font-size: 30px;
+        //   margin-top: 50px auto;
+        // }
 
-        .welcome_msg {
-          font-size: 20px;
-          font-weight: 300;
-        }
+        // .welcome_msg {
+        //   font-size: 20px;
+        //   font-weight: 300;
+        // }
 
-        .hover-color {
-          background-color: #000;
-          color: red;
-        }
+        // .hover-color {
+        //   background-color: #000;
+        //   color: red;
+        // }
 
-        a {
-          text-decoration: none;
-        }
+        // a {
+        //   text-decoration: none;
+        // }
 
-        .learn__more__text {
-          font-family: serif;
-          font-size: 25px;
-          margin-top: 25px;
-          color: $primary-green;
-        }
+        // .learn__more__text {
+        //   font-family: serif;
+        //   font-size: 25px;
+        //   margin-top: 25px;
+        //   color: $primary-green;
+        // }
 
         .supervised__google__account__section {
           margin-top: 50px;
@@ -158,12 +158,67 @@
 /* Tablets and under */
 @media (max-width: 768px) {
   .main {
-    padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
-          margin-top: 30px;
+    padding: 0 30px;
+
+    .righ__bg__container {
+      .create__acct__container {
+        width: 85%;
+        overflow: scroll;
+
+        .select__age__container {
+          .select__age__card__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overscroll-behavior: inherit;
+
+            .content__container {
+              height: 250px;
+              width: 350px;
+              margin-bottom: 30px;
+              display: flex;
+
+              .content__img__container {
+                width: 80px;
+                margin-bottom: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+
+    .righ__bg__container {
+      .create__acct__container {
+        width: 85%;
+        // overflow: scroll;
+
+        .select__age__container {
+          .select__age__card__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overscroll-behavior: inherit;
+
+            .content__container {
+              height: 200px;
+              width: 300px;
+              margin-bottom: 30px;
+              display: flex;
+
+              .content__img__container {
+                width: 50px;
+                margin-bottom: 30px;
+              }
+            }
+          }
         }
       }
     }

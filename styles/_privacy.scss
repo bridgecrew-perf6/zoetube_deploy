@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
 
-  .ageverification__page__container {
+  .privacy__page__container {
     background-color: white;
     border-radius: 8px;
     min-height: 90%;
@@ -33,7 +33,7 @@
     justify-content: center;
     animation: slideInFromRight 1s ease-in;
 
-    .ageverification__content__container {
+    .privacy__content__container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -70,6 +70,7 @@
           &:hover {
             opacity: 0.9;
             transform: scale(1.1);
+            transition: 0.5s ease-in;
           }
         }
 
@@ -81,46 +82,6 @@
       a {
         text-decoration: none;
       }
-
-      .age__verification__paragraph {
-        font-size: 20px;
-        font-weight: 300;
-      }
-
-      .input__section {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        .input__container {
-          margin: 20px auto;
-
-          input {
-            border: 0;
-            width: 10%;
-            border-bottom: 1px solid $primary-green;
-            margin: 0 4px;
-            text-align: center;
-            outline: none;
-            font-size: 30px;
-            font-weight: 600;
-
-            &::placeholder {
-              text-align: center;
-              font-size: 30px;
-              font-weight: 600;
-              text-align: center;
-            }
-          }
-        }
-      }
-
-      input[type="number"]::-webkit-inner-spin-button,
-      input[type="number"]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-      }
     }
   }
 }
@@ -128,13 +89,11 @@
 /* Tablets and under */
 @media (max-width: 768px) {
   .main {
-    padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
-          margin-top: 30px;
-        }
+    .privacy__page__container {
+      width: 80%;
+      .privacy__content__container {
+        margin: 0 20px;
+        height: 65vh;
       }
     }
   }
@@ -143,16 +102,11 @@
 /* Mobile */
 @media (max-width: 500px) {
   .main {
-    padding: 0 20px;
-
-    .flow__container {
-      .content__container {
+    .privacy__page__container {
+      width: 80%;
+      .privacy__content__container {
         margin: 0 20px;
         height: 65vh;
-
-        // .content__img__container {
-        //   width: 20px;
-        // }
 
         .content__img__container {
           margin: 0 auto;

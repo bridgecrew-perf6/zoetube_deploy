@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
 
-  .kid__page__container {
+  .parent__welcome__page__container {
     background-color: white;
     border-radius: 8px;
     min-height: 90%;
@@ -33,7 +33,7 @@
     justify-content: center;
     animation: slideInFromRight 1s ease-in;
 
-    .kid__page__content__container {
+    .parent__welcome__page__content__container {
       display: flex;
       flex-direction: column;
       //     align-items: center;
@@ -83,6 +83,7 @@
           &:hover {
             opacity: 0.9;
             transform: scale(1.1);
+            transition: 0.5s ease-in;
           }
         }
 
@@ -112,9 +113,11 @@
 @media (max-width: 768px) {
   .main {
     // padding: 0 40px;
-    .kid__page__container {
-      width: 80vw;
-      .kid__page__content__container {
+    .parent__welcome__page__container {
+      width: 80%;
+      height: 90vh;
+
+      .parent__welcome__page__content__container {
         height: 70vh;
         width: 80vw;
 
@@ -141,10 +144,13 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    overflow: hidden;
 
-    .kid__page__container {
-      width: 100vw;
-      .kid__page__content__container {
+    .parent__welcome__page__container {
+      width: 80%;
+      height: 90vh;
+
+      .parent__welcome__page__content__container {
         margin: 0 20px;
         height: 90vh;
         width: 100vw;
@@ -155,7 +161,7 @@
         }
 
         .welcome__text {
-          margin-top: 30px;
+          margin-top: 50px;
           font-family: roboto;
           font-weight: 600;
           font-size: 25px;
