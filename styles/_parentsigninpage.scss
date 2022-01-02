@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
 
-  .kid__page__container {
+  .parent__sigin__page__container {
     background-color: white;
     border-radius: 8px;
     min-height: 90%;
@@ -33,7 +33,7 @@
     justify-content: center;
     animation: slideInFromLeft 1s ease-in;
 
-    .content__container {
+    .parent__sigin__content__container {
       display: flex;
       flex-direction: column;
       //     align-items: center;
@@ -51,6 +51,11 @@
           width: 100%;
           margin-bottom: 0;
         }
+      }
+
+      .welcome__text {
+        font-size: 1.5rem;
+        font-weight: 600;
       }
 
       .parents__login__paragraph {
@@ -95,7 +100,7 @@
 
       .welcome_msg {
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 600;
       }
 
       .button__section {
@@ -116,15 +121,28 @@
             &:hover {
               opacity: 0.9;
               transform: scale(1.1);
+              transition: 0.5s ease-in;
             }
           }
 
           .skip__btn {
             color: $primary-green;
+
+            &:hover {
+              opacity: 0.9;
+              transform: scale(1.2);
+              transition: 0.5s ease-in;
+            }
           }
         }
         .back__btn {
           color: $primary-green;
+
+          &:hover {
+            opacity: 0.9;
+            transform: scale(1.2);
+            transition: 0.5s ease-in;
+          }
         }
       }
 
@@ -149,11 +167,22 @@
 @media (max-width: 768px) {
   .main {
     padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
-          margin-top: 30px;
+    .righ__bg__container {
+      .parent__sigin__page__container {
+        width: 80%;
+        .parent__sigin__content__container {
+          .center__section {
+            width: 100%;
+            .google__account__login__section {
+              width: 80%;
+            }
+          }
+          .welcome__text {
+            margin-top: 30px;
+            .bttn__container {
+              margin-top: 30px;
+            }
+          }
         }
       }
     }
@@ -166,8 +195,9 @@
     padding: 0 20px;
 
     .righ__bg__container {
-      .kid__page__container {
-        .content__container {
+      .parent__sigin__page__container {
+        width: 80%;
+        .parent__sigin__content__container {
           margin: 0 20px;
           height: 65vh;
 

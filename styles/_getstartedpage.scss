@@ -81,6 +81,7 @@
           &:hover {
             opacity: 0.9;
             transform: scale(1.1);
+            transition: 0.5s ease-in;
           }
         }
 
@@ -98,20 +99,10 @@
         font-size: 25px;
         margin-top: 25px;
         color: $primary-green;
-      }
 
-      .supervised__google__account__section {
-        margin-top: 50px;
-        // width: 20%;
-        // border: 0.09rem solid $primary-green;
         &:hover {
-          border: 0.09rem solid $primary-green;
-        }
-
-        .google__logo {
-          width: 35px;
-          height: 45px;
-          margin-right: 15px;
+          transform: scale(1.1);
+          transition: 0.5s ease-in;
         }
       }
     }
@@ -122,11 +113,23 @@
 @media (max-width: 768px) {
   .main {
     padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
+
+    .getstarted__page__container {
+      width: 80%;
+
+      .content__container {
+        height: 75vh;
+
+        .content__img__container {
+          margin: 0 auto;
+          width: 300px;
+        }
+
+        .welcome__text {
           margin-top: 30px;
+          .bttn__container {
+            margin-top: 30px;
+          }
         }
       }
     }
@@ -139,9 +142,11 @@
     padding: 0 20px;
 
     .getstarted__page__container {
+      width: 80%;
+
       .content__container {
         margin: 0 20px;
-        height: 62vh;
+        height: 70vh;
 
         // .content__img__container {
         //   width: 20px;

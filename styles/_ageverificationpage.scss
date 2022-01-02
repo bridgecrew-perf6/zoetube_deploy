@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
 
-  .ageverification__page__container {
+  .age__verification__page__container {
     background-color: white;
     border-radius: 8px;
     min-height: 90%;
@@ -33,7 +33,7 @@
     justify-content: center;
     animation: slideInFromRight 1s ease-in;
 
-    .ageverification__content__container {
+    .age__verification__content__container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -70,6 +70,7 @@
           &:hover {
             opacity: 0.9;
             transform: scale(1.1);
+            transition: 0.5s ease-in;
           }
         }
 
@@ -129,11 +130,16 @@
 @media (max-width: 768px) {
   .main {
     padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
+    .age__verification__page__container {
+      width: 80%;
+      .age__verification__content__container {
+        height: 70vh;
+
+        .welcome__text {
           margin-top: 30px;
+          .bttn__container {
+            margin-top: 30px;
+          }
         }
       }
     }
@@ -145,10 +151,11 @@
   .main {
     padding: 0 20px;
 
-    .flow__container {
-      .content__container {
+    .age__verification__page__container {
+      width: 80%;
+      .age__verification__content__container {
         margin: 0 20px;
-        height: 65vh;
+        height: 70vh;
 
         // .content__img__container {
         //   width: 20px;

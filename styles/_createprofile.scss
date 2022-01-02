@@ -153,3 +153,241 @@
     }
   }
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+  .main {
+    .righ__bg__container {
+      .create__profile__page__container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // overflow: scroll;
+        .create__profile__page__content__container {
+          height: 80vh;
+          h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+          p {
+            font-size: 1rem;
+          }
+          .form__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 500px;
+
+            .left__form__container {
+              width: 100px;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              border-radius: 50%;
+              overflow: hidden;
+              cursor: pointer;
+              margin-bottom: 30px;
+
+              .profile__img {
+                width: 100%;
+                border-radius: 50%;
+              }
+
+              .profile_picture_overlay {
+                background-color: rgba(0, 0, 0, 0.54);
+                bottom: 0;
+                height: 32px;
+                position: absolute;
+                text-align: center;
+                width: 100%;
+
+                img {
+                  width: 100%;
+                  max-width: 15px;
+                  position: absolute;
+                  bottom: 10px;
+                  left: 45px;
+                }
+              }
+            }
+
+            form {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              width: 35%;
+              margin-right: 90px;
+
+              .input__container {
+                margin-bottom: 20px;
+                input {
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid gray;
+                  width: 200px;
+                  background-color: transparent;
+
+                  &:active {
+                    border-bottom: 1px solid $primary-green;
+                  }
+                }
+
+                select {
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid gray;
+                  width: 200px;
+                  background-color: transparent;
+                  color: rgb(111, 111, 111);
+
+                  option {
+                    padding: 0 10px;
+                    height: 200px;
+                    color: $primary-green;
+                    // background-color: red;
+                    & :hover {
+                      background-color: green;
+                    }
+                  }
+                }
+              }
+
+              h6 {
+                font-size: 0.7rem;
+              }
+            }
+          }
+
+          .create__profile__btn {
+            text-align: center;
+            // margin: auto;
+            margin: 30px auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .main {
+    .righ__bg__container {
+      .create__profile__page__container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // overflow: scroll;
+        .create__profile__page__content__container {
+          height: 80vh;
+          h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+          p {
+            font-size: 1rem;
+          }
+          .form__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 500px;
+
+            .left__form__container {
+              width: 100px;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              border-radius: 50%;
+              overflow: hidden;
+              cursor: pointer;
+              margin-bottom: 30px;
+
+              .profile__img {
+                width: 100%;
+                border-radius: 50%;
+              }
+
+              .profile_picture_overlay {
+                background-color: rgba(0, 0, 0, 0.54);
+                bottom: 0;
+                height: 32px;
+                position: absolute;
+                text-align: center;
+                width: 100%;
+
+                img {
+                  width: 100%;
+                  max-width: 15px;
+                  position: absolute;
+                  bottom: 10px;
+                  left: 45px;
+                }
+              }
+            }
+
+            form {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              width: 35%;
+              margin-right: 90px;
+
+              .input__container {
+                margin-bottom: 20px;
+                input {
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid gray;
+                  width: 150px;
+                  background-color: transparent;
+
+                  &:active {
+                    border-bottom: 1px solid $primary-green;
+                  }
+                }
+
+                select {
+                  border: none;
+                  outline: none;
+                  border-bottom: 1px solid gray;
+                  width: 150px;
+                  background-color: transparent;
+                  color: rgb(111, 111, 111);
+
+                  option {
+                    padding: 0 10px;
+                    height: 200px;
+                    color: $primary-green;
+                    // background-color: red;
+                    & :hover {
+                      background-color: green;
+                    }
+                  }
+                }
+              }
+
+              h6 {
+                font-size: 0.7rem;
+              }
+            }
+          }
+
+          .create__profile__btn {
+            text-align: center;
+            // margin: auto;
+            margin: 30px auto;
+          }
+        }
+      }
+    }
+  }
+}

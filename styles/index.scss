@@ -127,6 +127,7 @@ a {
           &:hover {
             opacity: 0.9;
             transform: scale(1.1);
+            transition: 0.5s ease-in;
           }
         }
 
@@ -144,6 +145,11 @@ a {
         font-size: 25px;
         margin-top: 25px;
         color: $primary-green;
+
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.5s ease-in;
+        }
       }
 
       .supervised__google__account__section {
@@ -168,11 +174,17 @@ a {
 @media (max-width: 768px) {
   .main {
     padding: 0 40px;
-    .content__container {
-      .welcome__text {
-        margin-top: 30px;
-        .bttn__container {
-          margin-top: 30px;
+    .righ__bg__container {
+      .homepage__container {
+        width: 80%;
+
+        .content__container {
+          .welcome__text {
+            margin-top: 30px;
+            .bttn__container {
+              margin-top: 30px;
+            }
+          }
         }
       }
     }
@@ -186,16 +198,21 @@ a {
 
     .righ__bg__container {
       .homepage__container {
+        width: 80%;
         .content__container {
           margin: 0 20px;
-          height: 65vh;
+          height: 75vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 90%;
 
           // .content__img__container {
           //   width: 20px;
           // }
 
           .content__img__container {
-            margin: 0 auto;
+            // margin: 0 auto;
             width: 300px;
           }
 
@@ -216,6 +233,7 @@ a {
             .bttn {
               margin: 10px auto;
               height: 40px;
+              font-size: 0.8rem;
               &:hover {
                 opacity: 0.8;
               }
