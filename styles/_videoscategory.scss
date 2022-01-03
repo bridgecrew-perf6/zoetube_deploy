@@ -442,7 +442,6 @@ footer {
 
 @media (max-width: 500px) {
   .container-ffluid {
-    width: 85%;
     .navbar {
       .user__avatar {
         width: 30px;
@@ -574,7 +573,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 0.2rem;
         margin: auto;
-        width: 20%;
 
         .movies__card {
           width: 150px;
