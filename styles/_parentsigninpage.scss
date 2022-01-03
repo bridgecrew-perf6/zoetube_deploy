@@ -193,10 +193,12 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
 
     .righ__bg__container {
       .parent__sigin__page__container {
-        width: 80%;
+        width: 85%;
+        margin: auto;
         .parent__sigin__content__container {
           margin: 0 20px;
           height: 65vh;
@@ -244,6 +246,18 @@
               &:hover {
                 opacity: 0.8;
               }
+            }
+          }
+
+          .back__btn {
+            display: none;
+          }
+          .button__section {
+            .button__container {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 60%;
             }
           }
         }

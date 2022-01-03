@@ -271,13 +271,15 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
   }
   .main .welcome__page__container {
-    width: 80%;
+    width: 85%;
+    margin: auto;
   }
   .main .welcome__page__container .content__container {
     margin: 0 20px;
-    height: 80vh;
+    height: 70vh;
   }
   .main .welcome__page__container .content__container .content__img__container {
     margin: 0 auto;
@@ -484,9 +486,11 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
   }
   .main .getstarted__page__container {
-    width: 80%;
+    width: 85%;
+    margin: auto;
   }
   .main .getstarted__page__container .content__container {
     margin: 0 20px;
@@ -701,7 +705,7 @@
     padding: 0 20px;
   }
   .main .kiddies__page__container {
-    width: 80%;
+    width: 85%;
   }
   .main .kiddies__page__container .content__container {
     margin: 0 20px;
@@ -947,9 +951,11 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
   }
   .main .age__verification__page__container {
-    width: 80%;
+    width: 85%;
+    margin: auto;
   }
   .main .age__verification__page__container .age__verification__content__container {
     margin: 0 20px;
@@ -1152,10 +1158,12 @@
   .main {
     padding: 0 20px;
     overflow: hidden;
+    display: flex;
   }
   .main .parent__welcome__page__container {
-    width: 80%;
-    height: 90vh;
+    width: 85%;
+    height: 60vh;
+    margin: auto;
   }
   .main .parent__welcome__page__container .parent__welcome__page__content__container {
     margin: 0 20px;
@@ -1408,9 +1416,11 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
   }
   .main .righ__bg__container .parent__sigin__page__container {
-    width: 80%;
+    width: 85%;
+    margin: auto;
   }
   .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container {
     margin: 0 20px;
@@ -1446,6 +1456,15 @@
   }
   .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container .bttn__container .bttn:hover {
     opacity: 0.8;
+  }
+  .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container .back__btn {
+    display: none;
+  }
+  .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container .button__section .button__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
   }
 }
 .create__acct__container {
@@ -1567,7 +1586,6 @@
   }
   .main .righ__bg__container .create__acct__container {
     width: 85%;
-    overflow: scroll;
   }
   .main .righ__bg__container .create__acct__container .select__age__container .select__age__card__container {
     display: flex;
@@ -2011,6 +2029,9 @@ footer {
 }
 /* Mobile */
 @media (max-width: 500px) {
+  .container-ffluid {
+    width: 85%;
+  }
   .container-ffluid .navbar .user__avatar {
     width: 30px;
     height: 30px;
@@ -2081,14 +2102,14 @@ footer {
     width: 100%;
   }
   .container-ffluid .icon__container {
-    width: 50%;
+    width: 70%;
     padding-bottom: 70px;
   }
   .container-ffluid .icon__container .icon__second__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 77%;
+    width: 80%;
     margin: auto;
   }
   .container-ffluid .icon__container .icon__second__container .icons__section__link {
@@ -2121,7 +2142,7 @@ footer {
   }
   .container-ffluid .video__section {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
   .container-ffluid .video__section .left__video__section {
     display: none;
@@ -2133,9 +2154,10 @@ footer {
     -moz-column-gap: 0.2rem;
          column-gap: 0.2rem;
     margin: auto;
+    width: 20%;
   }
   .container-ffluid .video__section .center__video__section .movies__card {
-    width: 180px;
+    width: 150px;
     height: 180px;
     position: relative;
   }
@@ -2149,8 +2171,8 @@ footer {
   .container-ffluid .video__section .center__video__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    height: 20px;
+    width: 40%;
+    height: 18px;
     padding: 0 5px;
     background-color: #00716c;
     color: white;
@@ -2158,20 +2180,21 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 30%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .container-ffluid .video__section .center__video__section .movies__card .movie__title {
     margin-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 149px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    text-align: center;
   }
   .container-ffluid .video__section .center__video__section .movies__card .movie__title p {
     font-size: 0.8rem;
@@ -2489,7 +2512,7 @@ footer {
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     -moz-column-gap: 0.2rem;
          column-gap: 0.2rem;
     margin: auto;
@@ -2643,15 +2666,14 @@ footer {
   .video__player__section .right__player__container .right__player__section {
     width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -moz-column-gap: 0.2rem;
-         column-gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
     margin: auto;
   }
   .video__player__section .right__player__container .right__player__section .movies__card {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 220px;
+    margin: 10px auto;
     position: relative;
   }
   .video__player__section .right__player__container .right__player__section .movies__card .video__image__container {
@@ -2664,7 +2686,7 @@ footer {
   .video__player__section .right__player__container .right__player__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 22%;
     height: 20px;
     padding: 0 5px;
     background-color: #00716c;
@@ -2680,7 +2702,7 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 299px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
@@ -2689,7 +2711,7 @@ footer {
     display: flex;
   }
   .video__player__section .right__player__container .right__player__section .movies__card .movie__title p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: auto;
     color: white;
   }
@@ -3206,7 +3228,7 @@ footer {
   }
   .learning__page .video__section {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
   .learning__page .video__section .left__video__section {
     display: none;
@@ -3220,7 +3242,7 @@ footer {
     margin: auto;
   }
   .learning__page .video__section .center__video__section .movies__card {
-    width: 180px;
+    width: 150px;
     height: 180px;
     position: relative;
   }
@@ -3234,8 +3256,8 @@ footer {
   .learning__page .video__section .center__video__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    height: 20px;
+    width: 40%;
+    height: 18px;
     padding: 0 5px;
     background-color: #00716c;
     color: white;
@@ -3243,20 +3265,21 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 30%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .learning__page .video__section .center__video__section .movies__card .movie__title {
     margin-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 149px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    text-align: center;
   }
   .learning__page .video__section .center__video__section .movies__card .movie__title p {
     font-size: 0.8rem;
@@ -4365,7 +4388,7 @@ footer {
   }
   .music__page .video__section {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
   .music__page .video__section .left__video__section {
     display: none;
@@ -4379,7 +4402,7 @@ footer {
     margin: auto;
   }
   .music__page .video__section .center__video__section .movies__card {
-    width: 180px;
+    width: 150px;
     height: 180px;
     position: relative;
   }
@@ -4393,8 +4416,8 @@ footer {
   .music__page .video__section .center__video__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    height: 20px;
+    width: 40%;
+    height: 18px;
     padding: 0 5px;
     background-color: #00716c;
     color: white;
@@ -4402,20 +4425,21 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 30%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .music__page .video__section .center__video__section .movies__card .movie__title {
     margin-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 149px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    text-align: center;
   }
   .music__page .video__section .center__video__section .movies__card .movie__title p {
     font-size: 0.8rem;
@@ -4938,7 +4962,7 @@ footer {
   }
   .shows__page .video__section {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
   .shows__page .video__section .left__video__section {
     display: none;
@@ -4952,7 +4976,7 @@ footer {
     margin: auto;
   }
   .shows__page .video__section .center__video__section .movies__card {
-    width: 180px;
+    width: 150px;
     height: 180px;
     position: relative;
   }
@@ -4966,8 +4990,8 @@ footer {
   .shows__page .video__section .center__video__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    height: 20px;
+    width: 40%;
+    height: 18px;
     padding: 0 5px;
     background-color: #00716c;
     color: white;
@@ -4975,20 +4999,21 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 30%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .shows__page .video__section .center__video__section .movies__card .movie__title {
     margin-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 149px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    text-align: center;
   }
   .shows__page .video__section .center__video__section .movies__card .movie__title p {
     font-size: 0.8rem;
@@ -5511,7 +5536,7 @@ footer {
   }
   .explore__page .video__section {
     display: flex;
-    width: 90%;
+    width: 80%;
   }
   .explore__page .video__section .left__video__section {
     display: none;
@@ -5525,7 +5550,7 @@ footer {
     margin: auto;
   }
   .explore__page .video__section .center__video__section .movies__card {
-    width: 180px;
+    width: 150px;
     height: 180px;
     position: relative;
   }
@@ -5539,8 +5564,8 @@ footer {
   .explore__page .video__section .center__video__section .movies__card .no__videos {
     display: flex;
     justify-content: space-between;
-    width: 35%;
-    height: 20px;
+    width: 40%;
+    height: 18px;
     padding: 0 5px;
     background-color: #00716c;
     color: white;
@@ -5548,20 +5573,21 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 30%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .explore__page .video__section .center__video__section .movies__card .movie__title {
     margin-top: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 179px;
+    width: 149px;
     height: 25%;
     padding: 0 8px;
     background-color: #00716c;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    text-align: center;
   }
   .explore__page .video__section .center__video__section .movies__card .movie__title p {
     font-size: 0.8rem;
@@ -5906,9 +5932,11 @@ a {
 @media (max-width: 500px) {
   .main {
     padding: 0 30px;
+    display: flex;
   }
   .main .righ__bg__container .homepage__container {
-    width: 80%;
+    width: 85%;
+    margin: auto;
   }
   .main .righ__bg__container .homepage__container .content__container {
     margin: 0 20px;
@@ -5929,6 +5957,7 @@ a {
   }
   .main .righ__bg__container .homepage__container .content__container .bttn__container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
     width: 100%;

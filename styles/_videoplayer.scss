@@ -360,7 +360,7 @@
         margin: auto;
 
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 0.2rem;
         margin: auto;
 
@@ -608,9 +608,8 @@
         width: 100%;
         margin: auto;
 
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0.2rem;
+        display: flex;
+        flex-direction: column;
         margin: auto;
 
         // .movies__card {
@@ -668,8 +667,9 @@
         // }
 
         .movies__card {
-          width: 180px;
-          height: 180px;
+          width: 300px;
+          height: 220px;
+          margin: 10px auto;
           position: relative;
           .video__image__container {
             width: 100%;
@@ -684,7 +684,7 @@
           .no__videos {
             display: flex;
             justify-content: space-between;
-            width: 35%;
+            width: 22%;
             height: 20px;
             padding: 0 5px;
             background-color: $primary-green;
@@ -701,7 +701,7 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 179px;
+            width: 299px;
             height: 25%;
             padding: 0 8px;
             background-color: $primary-green;
@@ -709,7 +709,7 @@
             border-bottom-right-radius: 10px;
             display: flex;
             p {
-              font-size: 0.8rem;
+              font-size: 1rem;
               margin: auto;
               color: white;
             }

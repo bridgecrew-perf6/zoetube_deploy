@@ -147,13 +147,15 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
 
     .welcome__page__container {
-      width: 80%;
+      width: 85%;
+      margin: auto;
 
       .content__container {
         margin: 0 20px;
-        height: 80vh;
+        height: 70vh;
 
         // .content__img__container {
         //   width: 20px;
