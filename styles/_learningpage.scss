@@ -559,7 +559,7 @@ footer {
 
     .video__section {
       display: flex;
-      width: 90%;
+      width: 80%;
       .left__video__section {
         display: none;
       }
@@ -572,7 +572,7 @@ footer {
         margin: auto;
 
         .movies__card {
-          width: 180px;
+          width: 150px;
           height: 180px;
           position: relative;
           .video__image__container {
@@ -586,8 +586,8 @@ footer {
           .no__videos {
             display: flex;
             justify-content: space-between;
-            width: 35%;
-            height: 20px;
+            width: 40%;
+            height: 18px;
             padding: 0 5px;
             background-color: $primary-green;
             color: white;
@@ -595,7 +595,7 @@ footer {
             position: absolute;
             right: 10px;
             bottom: 30%;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
           }
 
           .movie__title {
@@ -603,13 +603,14 @@ footer {
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 179px;
+            width: 149px;
             height: 25%;
             padding: 0 8px;
             background-color: $primary-green;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             display: flex;
+            text-align: center;
             p {
               font-size: 0.8rem;
               margin: auto;

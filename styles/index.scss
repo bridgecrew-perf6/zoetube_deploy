@@ -195,10 +195,12 @@ a {
 @media (max-width: 500px) {
   .main {
     padding: 0 30px;
+    display: flex;
 
     .righ__bg__container {
       .homepage__container {
-        width: 80%;
+        width: 85%;
+        margin: auto;
         .content__container {
           margin: 0 20px;
           height: 75vh;
@@ -225,7 +227,7 @@ a {
 
           .bttn__container {
             display: flex;
-            // flex-direction: column;
+            flex-direction: column;
             justify-content: space-between;
             margin: 0 auto;
             width: 100%;

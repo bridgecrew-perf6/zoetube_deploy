@@ -140,9 +140,11 @@
 @media (max-width: 500px) {
   .main {
     padding: 0 20px;
+    display: flex;
 
     .getstarted__page__container {
-      width: 80%;
+      width: 85%;
+      margin: auto;
 
       .content__container {
         margin: 0 20px;
