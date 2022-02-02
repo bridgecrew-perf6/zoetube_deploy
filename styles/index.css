@@ -1316,7 +1316,7 @@ body {
 .main__body .parent__sigin__page__container {
   background-color: #bbd915;
   border-radius: 8px;
-  min-height: 90%;
+  height: 90%;
   min-width: 60%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   justify-content: center;
@@ -1334,14 +1334,14 @@ body {
   display: flex;
   flex-direction: column;
   width: 75%;
-  height: 90vh;
+  height: 100%;
 }
-.main__body .parent__sigin__page__container .parent__sigin__content__container .kidpage__content__img__container {
-  width: 300px;
-  height: 400px;
+.main__body .parent__sigin__page__container .parent__sigin__content__container .parent__sigin__img__container {
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
 }
-.main__body .parent__sigin__page__container .parent__sigin__content__container .kidpage__content__img__container img {
+.main__body .parent__sigin__page__container .parent__sigin__content__container .parent__sigin__img__container img {
   width: 100%;
   margin-bottom: 0;
 }
