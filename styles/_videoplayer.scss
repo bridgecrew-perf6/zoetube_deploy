@@ -1,3 +1,7 @@
+.video__player__body {
+  background-color: $body-bg;
+}
+
 .video__player__nav {
   display: flex;
   justify-content: space-between;
@@ -5,7 +9,7 @@
   padding: 30px 40px;
   width: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
+  background-color: $dark-bg;
   animation: slideInFromTop 1s ease-in;
 
   position: relative;
@@ -130,7 +134,9 @@
     width: 75%;
     height: 79vh;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    background-color: rgb(235, 235, 235);
+    background-color: $body-bg;
+
+    // background-color: rgb(235, 235, 235);
 
     .video__layout {
       height: 100%;
@@ -149,7 +155,7 @@
     .video__title__layout {
       padding-top: 12px;
       padding-left: 50px;
-      background-color: #fff;
+      background-color: $dark-bg;
       width: 100%;
 
       p {

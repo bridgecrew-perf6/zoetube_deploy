@@ -49,13 +49,14 @@ a {
 }
 
 .main__body {
-  background-color: $primary-red;
+  background-color: $body-bg;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 5;
 
   .homepage__container {
-    background-color: white;
+    background-color: #bbd915;
     border-radius: 8px;
     min-height: 90%;
     min-width: 60%;

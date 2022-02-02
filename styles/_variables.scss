@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+$body-bg: #04daff;
+$dark-bg: #bbd915;
+$lightt-dark-bg: #cae00f;
+$text-color: #f2a5b7;
+
 $secondary-red: #f00;
 $light-color: #fff;
 $dark: #0d0d0d;
@@ -15,10 +22,15 @@ $primary-purple: rgb(49, 10, 88);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-family: Roboto, sans-serif;
 }
 
 .card {
-  background-color: #fff;
+  background-color: $dark-bg;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -31,8 +43,6 @@ $primary-purple: rgb(49, 10, 88);
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 // Animations
 

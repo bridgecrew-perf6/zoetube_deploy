@@ -17,7 +17,7 @@
   justify-content: center;
 
   .parent__sigin__page__container {
-    background-color: white;
+    background-color: $dark-bg;
     border-radius: 8px;
     min-height: 90%;
     min-width: 60%;
@@ -40,7 +40,7 @@
       //   justify-content: center;
       //   width: 70%;
       width: 75%;
-      height: 80vh;
+      height: 90vh;
 
       .kidpage__content__img__container {
         width: 300px;
