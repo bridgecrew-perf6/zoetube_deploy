@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -110,7 +110,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -174,7 +174,7 @@ body {
   justify-content: center;
 }
 .main__body .welcome__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -334,7 +334,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -398,7 +398,7 @@ body {
   justify-content: center;
 }
 .main__body .getstarted__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -554,7 +554,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -783,7 +783,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -847,7 +847,7 @@ body {
   justify-content: center;
 }
 .main__body .age__verification__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -1033,7 +1033,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -1097,7 +1097,7 @@ body {
   justify-content: center;
 }
 .main__body .parent__welcome__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -1250,7 +1250,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -1314,13 +1314,13 @@ body {
   justify-content: center;
 }
 .main__body .parent__sigin__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   height: 90%;
   min-width: 60%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   justify-content: center;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   width: 912px;
   z-index: 1;
@@ -1465,7 +1465,7 @@ body {
   .main .righ__bg__container .parent__sigin__page__container {
     width: 85%;
     margin: auto;
-    height: 80vh;
+    height: 70vh;
   }
   .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container {
     margin: 0 20px;
@@ -1474,6 +1474,7 @@ body {
   .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container .content__img__container {
     margin: 0 auto;
     width: 300px;
+    height: 100px;
   }
   .main .righ__bg__container .parent__sigin__page__container .parent__sigin__content__container .welcome__text {
     margin-top: 30px;
@@ -1509,7 +1510,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 70%;
   }
 }
 .create__acct__container {
@@ -1541,7 +1542,7 @@ body {
 .create__acct__container .select__age__container .select__age__card__container .content__container {
   display: flex;
   flex-direction: column;
-  background-color: #bbd915;
+  background-color: #04daff;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   padding: 2rem;
@@ -1681,7 +1682,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .container-ffluid .video__category__nav {
   display: flex;
@@ -1690,7 +1691,7 @@ body {
   margin: 0 10px;
   background-color: #fff;
   padding: 20px 60px;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .container-ffluid .video__category__nav .user__avatar {
   width: 90px;
@@ -2254,7 +2255,7 @@ footer {
   }
 }
 .video__player__body {
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 
 .video__player__nav {
@@ -2264,7 +2265,7 @@ footer {
   padding: 30px 40px;
   width: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  background-color: #bbd915;
+  background-color: #04daff;
   -webkit-animation: slideInFromTop 1s ease-in;
           animation: slideInFromTop 1s ease-in;
   position: relative;
@@ -2375,7 +2376,7 @@ footer {
   width: 75%;
   height: 79vh;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .video__player__section .left__player__section .video__layout {
   height: 100%;
@@ -2391,7 +2392,7 @@ footer {
 .video__player__section .left__player__section .video__title__layout {
   padding-top: 12px;
   padding-left: 50px;
-  background-color: #bbd915;
+  background-color: #04daff;
   width: 100%;
 }
 .video__player__section .left__player__section .video__title__layout p {
@@ -2772,7 +2773,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .learning__page .video__category__nav {
   display: flex;
@@ -2781,7 +2782,7 @@ footer {
   margin: 0 10px;
   background-color: #fff;
   padding: 20px 60px;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .learning__page .video__category__nav .user__avatar {
   width: 90px;
@@ -2848,7 +2849,7 @@ footer {
 .learning__page .icon__container {
   width: 60%;
   padding-bottom: 100px;
-  background-color: #bbd915;
+  background-color: #04daff;
   -webkit-animation: slideInFromTop 1s ease-in;
           animation: slideInFromTop 1s ease-in;
   display: flex;
@@ -3354,7 +3355,7 @@ footer {
   font-family: Roboto, Arial, sans-serif;
 }
 .main__body .create__profile__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -3688,7 +3689,7 @@ footer {
   font-family: Roboto, Arial, sans-serif;
 }
 .main__body .profile__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -3936,14 +3937,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .music__page .video__category__nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: 0 10px;
-  background-color: #04daff;
+  background-color: #bbd915;
   padding: 20px 60px;
 }
 .music__page .video__category__nav .user__avatar {
@@ -4011,7 +4012,7 @@ footer {
 .music__page .icon__container {
   width: 60%;
   padding-bottom: 100px;
-  background-color: #bbd915;
+  background-color: #04daff;
   -webkit-animation: slideInFromTop 1s ease-in;
           animation: slideInFromTop 1s ease-in;
   display: flex;
@@ -4512,7 +4513,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .shows__page .video__category__nav {
   display: flex;
@@ -4521,7 +4522,7 @@ footer {
   margin: 0 10px;
   background-color: #fff;
   padding: 20px 60px;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .shows__page .video__category__nav .user__avatar {
   width: 90px;
@@ -4588,7 +4589,7 @@ footer {
 .shows__page .icon__container {
   width: 60%;
   padding-bottom: 100px;
-  background-color: #bbd915;
+  background-color: #04daff;
   -webkit-animation: slideInFromTop 1s ease-in;
           animation: slideInFromTop 1s ease-in;
   display: flex;
@@ -5090,7 +5091,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .explore__page .video__category__nav {
   display: flex;
@@ -5099,7 +5100,7 @@ footer {
   margin: 0 10px;
   background-color: #fff;
   padding: 20px 60px;
-  background-color: #04daff;
+  background-color: #bbd915;
 }
 .explore__page .video__category__nav .user__avatar {
   width: 90px;
@@ -5166,7 +5167,7 @@ footer {
 .explore__page .icon__container {
   width: 60%;
   padding-bottom: 100px;
-  background-color: #bbd915;
+  background-color: #04daff;
   -webkit-animation: slideInFromTop 1s ease-in;
           animation: slideInFromTop 1s ease-in;
   display: flex;
@@ -5675,7 +5676,7 @@ body {
 }
 
 .card {
-  background-color: #bbd915;
+  background-color: #04daff;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
@@ -5739,7 +5740,7 @@ body {
   justify-content: center;
 }
 .main__body .privacy__page__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;
@@ -5875,14 +5876,14 @@ a {
 }
 
 .main__body {
-  background-color: #04daff;
+  background-color: #bbd915;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 5;
 }
 .main__body .homepage__container {
-  background-color: #bbd915;
+  background-color: #04daff;
   border-radius: 8px;
   min-height: 90%;
   min-width: 60%;

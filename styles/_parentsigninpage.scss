@@ -23,7 +23,7 @@
     min-width: 60%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     justify-content: center;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     width: 912px;
     z-index: 1;
@@ -199,7 +199,8 @@
       .parent__sigin__page__container {
         width: 85%;
         margin: auto;
-        height: 80vh;
+        height: 70vh;
+
         .parent__sigin__content__container {
           margin: 0 20px;
           height: 70vh;
@@ -211,6 +212,7 @@
           .content__img__container {
             margin: 0 auto;
             width: 300px;
+            height: 100px;
           }
 
           .welcome__text {
@@ -258,7 +260,7 @@
               display: flex;
               justify-content: space-between;
               align-items: center;
-              width: 60%;
+              width: 70%;
             }
           }
         }
